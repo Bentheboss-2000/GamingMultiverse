@@ -1,0 +1,202 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  background-color: #141414;
+}
+
+/* build your layout */
+.column {
+  height: 100%;
+  width: 70%;
+  display: block;
+}
+.column2 {
+  height: 100%;
+  width: 30%;
+  display: block;
+}
+.row {
+  width: 100%;
+  height: 50%;
+  display: flex;
+}
+.box {
+  height: 100%;
+  width: calc(100% / 2);
+}
+.minibox {
+  width: 100%;
+  height: calc(100% / 3);
+}
+.gone {
+  display: none;
+}
+
+img {
+  max-height: 98%;
+  max-width: 98%;
+}
+
+.center-content {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.bg-settings {
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.sonic {
+  background-image: url("images/GreenHill.webp"); /* The image used */
+}
+.cacao {
+  background-image: url("images/CacaoKingdom.jpg");
+}
+.buzz {
+  background-image: url("images/BuzzBackground.jpg");
+}
+.sephiroth {
+  background-image: url("images/SephirothBackground.jpeg");
+}
+.burningspice {
+  background-image: url("images/SpiceBackground.jpg");
+}
+.edgar {
+  background-image: url("images/Angels.jpg");
+}
+.bowser {
+  background-image: url("images/BowserCastle.jpeg");
+}
+.kenji {
+  background-image: url("images/KenjiBackground.jpg");
+}
+.mysticflour {
+  background-image: url("images/MysticBackground.jpeg");
+}
+.minmin {
+  background-image: url("images/MinminBackground.jpeg");
+}
+.goldencheese {
+  background-image: url("images/GoldKingdom.jpg");
+}
+.brock {
+  background-image: url("images/BrockBackground.jpeg");
+}
+.translucent {
+  opacity: 0.5;
+}
+.disappear {
+  display: none;
+}
+.clickable1 {
+  filter: brightness(85%) drop-shadow(2px 8px 3px);
+}
+.clickable1:hover {
+  cursor: pointer;
+  filter: brightness(100%) drop-shadow(2px 8px 3px);
+  transform: scale(1.02);
+}
+.clickable1:active {
+  filter: drop-shadow(0px 0px 3px);
+  transform: scale(0.98);
+}
+
+/* EFFECT 2 */
+.clickable2 {
+  filter: grayscale(100%) drop-shadow(4px 4px 4px);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+.clickable2:hover {
+  cursor: pointer;
+  filter: grayscale(0%) drop-shadow(4px 4px 4px);
+}
+.clickable2:active {
+  filter: grayscale(0%) brightness(80%);
+  transform: scale(0.99);
+}
+
+/* EFFECT 3 */
+.clickable3 {
+  opacity: 0.8;
+  transform: scale(1);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.clickable3:hover {
+  cursor: pointer;
+  opacity: 1;
+  transform: scale(1.01);
+}
+.clickable3:active {
+  transform: scale(0.95);
+}
+
+.orange {
+  background-color: #f3a903;
+}
+.blue {
+  background-color: #2955dc;
+}
+.white {
+  background-color: #fffcfc;
+}
+.light-grey {
+  background-color: #a9a9a9;
+}
+.dark-grey {
+  background-color: #707070;
+}
+.red {
+  background-color: #fc0808;
+}
+.green {
+  background-color: #32f50b;
+}
+.yellow {
+  background-color: #f0ec07;
+}
+@media only screen and (max-width: 300px) {
+  body {
+    display: block;
+  }
+  .column {
+    height: 70%;
+    width: 100%;
+    display: block;
+  }
+  .row {
+    width: 100%;
+    height: 50%;
+    display: block;
+  }
+  .box {
+    height: 50%;
+    width: 100%;
+  }
+  .minibox {
+    width: calc(100% / 3);
+    height: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    display: block;
+  }
+  .column {
+    height: 70%;
+    width: 100%;
+    display: block;
+  }
+  .column2 {
+    height: 30%;
+    width: 100%;
+    display: flex;
+  }
+  .minibox {
+    width: calc(100% / 3);
+    height: 100%;
+  }
+}
