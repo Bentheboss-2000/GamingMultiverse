@@ -27,6 +27,28 @@ function addSmashfighters() {
     StopSounds();
     document.getElementById("lifelight").play();
   }
+  else {
+     document.getElementById("player1").src = "images/Sephiroth2.png";
+    document.getElementById("player2").src = "images/Sonic3.png";
+    document.getElementById("player3").src = "images/Bowser.png";
+    document.getElementById("player4").src = "images/ArmMin.png";
+    document.getElementById("player1").setAttribute("class", "clickable2");
+    document.getElementById("player2").setAttribute("class", "clickable2");
+    document.getElementById("player3").setAttribute("class", "clickable2");
+    document.getElementById("player4").setAttribute("class", "clickable2");
+    document
+      .getElementById("two")
+      .setAttribute("class", "box bg-settings sonic center-content");
+    document
+      .getElementById("one")
+      .setAttribute("class", "box bg-settings sephiroth center-content");
+    document
+      .getElementById("three")
+      .setAttribute("class", "box bg-settings bowser center-content");
+    document
+      .getElementById("four")
+      .setAttribute("class", "box bg-settings minmin center-content");
+}
 }
 
 function Brawlers() {
@@ -56,6 +78,28 @@ function Brawlers() {
     StopSounds();
     document.getElementById("jesus").play();
   }
+  else {
+     document.getElementById("player1").src = "images/edgar.png";
+    document.getElementById("player2").src = "images/Buzz.png";
+    document.getElementById("player3").src = "images/Kenji.png";
+    document.getElementById("player4").src = "images/TheBrock.png";
+    document.getElementById("player1").setAttribute("class", "clickable2");
+    document.getElementById("player2").setAttribute("class", "clickable2");
+    document.getElementById("player3").setAttribute("class", "clickable2");
+    document.getElementById("player4").setAttribute("class", "clickable2");
+    document
+      .getElementById("two")
+      .setAttribute("class", "box bg-settings buzz center-content");
+    document
+      .getElementById("one")
+      .setAttribute("class", "box bg-settings edgar center-content");
+    document
+      .getElementById("three")
+      .setAttribute("class", "box bg-settings kenji center-content");
+    document
+      .getElementById("four")
+      .setAttribute("class", "box bg-settings brock center-content");
+  }
 }
 function Gacha() {
   if (x == 0) {
@@ -83,6 +127,28 @@ function Gacha() {
   } else if (x == 1) {
     StopSounds();
     document.getElementById("promise").play();
+  }
+  else {
+     document.getElementById("player1").src = "images/BurningSpice.png";
+    document.getElementById("player2").src = "images/DarkCacao.png";
+    document.getElementById("player3").src = "images/MysticFlour.png";
+    document.getElementById("player4").src = "images/GoldenCheese.png";
+    document.getElementById("player1").setAttribute("class", "clickable2");
+    document.getElementById("player2").setAttribute("class", "clickable2");
+    document.getElementById("player3").setAttribute("class", "clickable2");
+    document.getElementById("player4").setAttribute("class", "clickable2");
+    document
+      .getElementById("two")
+      .setAttribute("class", "box box bg-settings cacao center-content");
+    document
+      .getElementById("one")
+      .setAttribute("class", "box bg-settings burningspice center-content");
+    document
+      .getElementById("three")
+      .setAttribute("class", "box bg-settings mysticflour center-content");
+    document
+      .getElementById("four")
+      .setAttribute("class", "box bg-settings goldencheese center-content");
   }
 }
 
