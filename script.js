@@ -26,6 +26,7 @@ function addSmashfighters() {
   } else if (x == 1) {
     StopSounds();
     document.getElementById("lifelight").play();
+    x = x + 1;
   }
   else {
      document.getElementById("player1").src = "images/Sephiroth2.png";
@@ -77,6 +78,7 @@ function Brawlers() {
   } else if (x == 1) {
     StopSounds();
     document.getElementById("jesus").play();
+    x = x + 1;
   }
   else {
      document.getElementById("player1").src = "images/edgar.png";
@@ -127,6 +129,7 @@ function Gacha() {
   } else if (x == 1) {
     StopSounds();
     document.getElementById("promise").play();
+    x = x + 1;
   }
   else {
      document.getElementById("player1").src = "images/BurningSpice.png";
