@@ -1,6 +1,7 @@
 let x = 0;
 
 function addSmashfighters() {
+  number();
   if (x == 0) {
     document.getElementById("player1").src = "images/Sephiroth2.png";
     document.getElementById("player2").src = "images/Sonic3.png";
@@ -53,6 +54,7 @@ function addSmashfighters() {
 }
 
 function Brawlers() {
+  number();
   if (x == 0) {
     document.getElementById("player1").src = "images/edgar.png";
     document.getElementById("player2").src = "images/Buzz.png";
@@ -104,6 +106,7 @@ function Brawlers() {
   }
 }
 function Gacha() {
+  number();
   if (x == 0) {
     document.getElementById("player1").src = "images/BurningSpice.png";
     document.getElementById("player2").src = "images/DarkCacao.png";
@@ -225,4 +228,8 @@ function StopSounds() {
   document.getElementById("lifelight").pause();
   document.getElementById("jesus").pause();
   document.getElementById("promise").pause();
+}
+
+function number() {
+  let x = 0;
 }
