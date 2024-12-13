@@ -1,4 +1,4 @@
-let x = 0;
+
 
 function addSmashfighters() {
   number();
