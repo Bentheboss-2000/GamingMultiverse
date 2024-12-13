@@ -161,15 +161,12 @@ function Gacha() {
 function playGreen() {
   StopSounds();
   if (document.getElementById("player3").src.match("images/Bowser.png")) {
-   
     document.getElementById("peaches").play();
   } else if (
     document.getElementById("player3").src.match("images/MysticFlour.png")
   ) {
-    
     document.getElementById("mystic").play();
   } else if (document.getElementById("player3").src.match("images/Kenji.png")) {
-   
     document.getElementById("wisdom").play();
   }
 }
@@ -177,15 +174,12 @@ function playGreen() {
 function playRed() {
   StopSounds();
   if (document.getElementById("player1").src.match("images/Sephiroth2.png")) {
-    
     document.getElementById("MyMain").play();
   } else if (
     document.getElementById("player1").src.match("images/BurningSpice.png")
   ) {
-  
     document.getElementById("Spice").play();
   } else if (document.getElementById("player1").src.match("images/edgar.png")) {
-  
     document.getElementById("edgar").play();
   }
 }
@@ -193,15 +187,12 @@ function playRed() {
 function playBlue() {
   StopSounds();
   if (document.getElementById("player2").src.match("images/Sonic3.png")) {
- 
     document.getElementById("SEGA").play();
   } else if (
     document.getElementById("player2").src.match("images/DarkCacao.png")
   ) {
-    
     document.getElementById("Cacao").play();
   } else if (document.getElementById("player2").src.match("images/Buzz.png")) {
-
     document.getElementById("Kaiju").play();
   }
 }
@@ -209,17 +200,14 @@ function playBlue() {
 function playYellow() {
   StopSounds();
   if (document.getElementById("player4").src.match("images/ArmMin.png")) {
-    
     document.getElementById("ARM").play();
   } else if (
     document.getElementById("player4").src.match("images/GoldenCheese.png")
   ) {
-   
     document.getElementById("Cheese").play();
   } else if (
     document.getElementById("player4").src.match("images/TheBrock.png")
   ) {
-  
     document.getElementById("dang").play();
   }
 }
