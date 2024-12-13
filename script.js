@@ -1,4 +1,4 @@
-let count x = 0;
+let x = 0;
 
 function addSmashfighters() {
   if (x == 0) {
